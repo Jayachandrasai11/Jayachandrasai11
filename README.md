@@ -1,20 +1,22 @@
 <div align="center">
 
-# 👋 Hi, I'm Jayachandrasai
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:312e81,100:06b6d4&height=190&section=header&text=Jayachandrasai&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Full-Stack%20%7C%20AI%2FGenAI&descAlignY=60&descSize=18" width="100%"/>
 
-### Software Engineer · Full-Stack Developer · AI/GenAI Builder
+</div>
 
-**Building intelligent products where AI, software engineering, and product design meet.**
+<div align="center">
+
+### Building intelligent products where **AI × Engineering × Design** meet.
 
 <p>
   <a href="https://portfolio-pink-two-40.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/sai-fullstackdeveloper/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://github.com/Jayachandrasai11">
-    <img src="https://img.shields.io/badge/GitHub-Explore-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
 
@@ -22,378 +24,281 @@
 
 ---
 
-## 🧑‍💻 About Me
+## 👋 About Me
 
-I'm a **Software Engineer focused on full-stack development and AI-powered applications**.
+I'm a **Software Engineer focused on Full-Stack Development and AI/GenAI applications**.
 
-I work across the complete product lifecycle — from understanding a problem and designing the experience to building APIs, integrating AI, designing data systems, securing applications, and deploying them.
+I enjoy turning ambiguous ideas into working products by connecting:
 
-My current technical focus includes:
+```text
+Problem
+   ↓
+Product Thinking
+   ↓
+Design
+   ↓
+Architecture
+   ↓
+Engineering
+   ↓
+AI / Data
+   ↓
+Security
+   ↓
+Deployment
+   ↓
+Iteration
+```
 
-**React · Python · Django · FastAPI · PostgreSQL · RAG · Semantic Search · LLMs · APIs · Application Security**
+My current focus:
 
-I enjoy building systems that transform:
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,react,django,fastapi,postgres,mongodb,js,ts" />
+</p>
 
-> **Raw Data → Intelligent Processing → Useful Decisions**
+**Python · React · Django · FastAPI · PostgreSQL · MongoDB · JavaScript · TypeScript**
+
+with:
+
+**RAG · Semantic Search · LLMs · Vector Databases · REST APIs · Application Security**
 
 ---
 
-# 🧭 How I Approach Projects
+# 🧠 How I Build
 
-I don't begin with:
+> **I don't start with technology. I start with the problem.**
 
-> *"Which framework should I use?"*
-
-I begin with:
-
-> **"What problem are we actually solving?"**
-
-My development process usually follows:
-
-### 01 · Understand
+### 01 — Understand
 
 **Problem → Users → Requirements → Constraints → Success Metrics**
 
-I identify the real problem before choosing a technical solution.
+I first identify what needs to be solved and what success actually means.
 
----
+### 02 — Design
 
-### 02 · Design
+I translate the problem into an experience.
 
-I translate requirements into a product experience.
+**User Flow · Information Architecture · Layout · Typography · Color · Spacing · Components · Responsive Behavior**
+
+### 03 — Architect
+
+I define the system before connecting everything together.
+
+```text
+             ┌───────────────┐
+             │   Frontend    │
+             └───────┬───────┘
+                     ↓
+             ┌───────────────┐
+             │   API Layer   │
+             └───────┬───────┘
+                     ↓
+             ┌───────────────┐
+             │ Business Logic│
+             └───────┬───────┘
+                     ↓
+          ┌──────────┴──────────┐
+          ↓                     ↓
+      AI / ML              Data Layer
+          ↓                     ↓
+          └──────────┬──────────┘
+                     ↓
+                Deployment
+```
 
 I think about:
 
-* Information architecture
-* User flows
-* Layout
-* Visual hierarchy
-* Typography
-* Color
-* Spacing
-* Responsive behavior
-* Component structure
-* Interaction patterns
+**Data Flow · APIs · Database Design · Authentication · Authorization · Security · Scalability**
 
-The goal:
+### 04 — Implement
 
-> **Make the experience simple before making the system complex.**
+I build vertically instead of creating disconnected pieces.
 
----
+**Core → Components → APIs → Data → AI → Edge Cases → UX**
 
-### 03 · Architect
+### 05 — Validate
 
-I define how the system should work before connecting everything together.
+I continuously test:
+
+**Functionality · APIs · UI · Data · Errors · Security · Performance**
+
+### 06 — Ship
 
 ```text
-Frontend
-    ↓
-API Layer
-    ↓
-Business Logic
-    ↓
-AI / Processing
-    ↓
-Database / Vector Store
-    ↓
-External Services
-```
-
-I consider:
-
-**Data flow · API contracts · Database design · Authentication · Authorization · Security · Scalability · Deployment**
-
----
-
-### 04 · Build
-
-I prefer incremental development:
-
-```text
-Core functionality
-        ↓
-Reusable components
-        ↓
-API integration
-        ↓
-Database integration
-        ↓
-AI integration
-        ↓
-Edge cases
-        ↓
-UX refinement
+Build → Test → Secure → Deploy → Observe → Improve
 ```
 
 ---
 
-### 05 · Validate
+# 🚀 Featured Engineering Work
 
-I don't consider a feature complete simply because the happy path works.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I validate:
+## 🧠 Resume Intelligence
 
-* Functionality
-* APIs
-* UI behavior
-* Data
-* Edge cases
-* Error handling
-* Security
-* Performance
+**AI Recruitment & Candidate Intelligence Platform**
 
-When something fails:
+A full-stack recruitment system designed to transform manual resume processing into an intelligent workflow.
 
-**Observe → Reproduce → Isolate → Find Root Cause → Fix → Validate**
+### Highlights
 
----
-
-### 06 · Deploy & Improve
-
-```text
-Build → Test → Secure → Deploy → Monitor → Iterate
-```
-
-For me, deployment isn't the end of the project.
-
-It's the beginning of the next iteration.
-
----
-
-# 🚀 Featured Work
-
-## 🧠 Resume Intelligence System
-
-### AI-powered recruitment & candidate intelligence platform
-
-A full-stack platform designed to transform manual resume screening into an intelligent recruitment workflow.
-
-### The problem
-
-Recruiters often move through:
-
-```text
-Emails
-  ↓
-Resume Files
-  ↓
-Manual Reading
-  ↓
-Information Extraction
-  ↓
-Candidate Filtering
-  ↓
-Matching
-  ↓
-Decision Making
-```
-
-The goal was to turn this fragmented workflow into a connected intelligent system.
-
-### Architecture
-
-```text
-                 Gmail / Resume Upload
-                         ↓
-                 Document Ingestion
-                         ↓
-                 PDF / DOCX Parsing
-                         ↓
-              LLM Structured Extraction
-                         ↓
-                  Candidate Data
-                         ↓
-                    Embeddings
-                         ↓
-               PostgreSQL + pgvector
-                         ↓
-               Semantic Search / RAG
-                         ↓
-                Recruiter Dashboard
-```
-
-### What I built
-
-* Gmail IMAP resume ingestion
+* Gmail resume ingestion
 * PDF/DOCX processing
-* Structured candidate extraction
-* Gemini-powered AI processing
-* SentenceTransformers embeddings
-* PostgreSQL + pgvector
+* LLM structured extraction
 * Semantic candidate search
-* RAG-based candidate discovery
-* Resume-aware AI chat
-* Job description processing
+* RAG
+* Vector embeddings
+* PostgreSQL + pgvector
+* Resume AI chat
 * Candidate management
 * Recruitment analytics
-* Interactive dashboards
-* Zustand state management
-* Responsive React UI
+* Security validation
 
-### Engineering Perspective
+**React · Django · PostgreSQL · pgvector · Gemini · RAG**
 
-The goal wasn't:
+</td>
 
-> **Upload Resume → Call AI → Show Result**
+<td width="50%" valign="top">
 
-The goal was:
+## ⚡ Veyra
 
-> **Ingestion → Processing → Intelligence → Search → Interaction → Analytics**
+**Product-focused Full-Stack Application**
 
-This required thinking across:
+A recent project combining product design, modern frontend engineering, application architecture and deployment.
 
-**Frontend + Backend + AI + Data + Search + Security + UX + Deployment**
-
-### Security
-
-I also evaluated application-level risks including:
-
-* IDOR
-* Authorization boundaries
-* CSRF
-* File upload validation
-* MIME spoofing
-* Rate limiting
-* API validation
-* Error leakage
-
-### Stack
-
-<p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/pgvector-4169E1?style=flat-square"/>
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=google&logoColor=white"/>
-</p>
-
----
-
-# ⚡ Veyra
-
-### Product-focused full-stack application
-
-Veyra represents my recent work around combining:
-
-**Product Design + React + Application Architecture + Backend Integration + Deployment**
-
-Rather than treating the interface as a collection of screens, I approached the product as a complete system.
-
-```text
-Product Concept
-      ↓
-User Experience
-      ↓
-Visual Language
-      ↓
-Component System
-      ↓
-Frontend Architecture
-      ↓
-Backend / APIs
-      ↓
-Data
-      ↓
-Deployment
-```
-
-### Engineering Focus
+### Focus
 
 * React architecture
-* Component-driven UI
-* Responsive interfaces
+* Component systems
+* Responsive UI
 * State management
 * API integration
 * Backend connectivity
 * UX refinement
 * Deployment
-* Iterative development
 
-### Stack
+**React · Vite · Tailwind · APIs · Python · Vercel**
 
-<p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"/>
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
-# 🌿 Potato Leaf Disease Classification
+# 🧠 Resume Intelligence — System Thinking
 
-### Computer vision system for plant disease detection
-
-A deep-learning application for identifying potato leaf diseases from images.
-
-### Pipeline
+Instead of:
 
 ```text
-Image
-  ↓
-Preprocessing
-  ↓
-CNN Model
-  ↓
-Classification
-  ↓
-Prediction
-  ↓
-REST API
-  ↓
-Web Interface
+Upload Resume → AI → Result
 ```
 
-### Results
+I designed the workflow around:
 
-**~92% classification accuracy**
+```text
+Gmail / Upload
+      ↓
+Document Ingestion
+      ↓
+PDF / DOCX Processing
+      ↓
+Structured Extraction
+      ↓
+Candidate Data
+      ↓
+Embeddings
+      ↓
+Vector Search
+      ↓
+Semantic Matching
+      ↓
+RAG
+      ↓
+Recruiter Experience
+```
 
-**~40% reduction in inference latency**
+### Why this project matters
 
-**~20–30% improvement in prediction efficiency**
+It combines several areas of engineering into one product:
 
-### Stack
+| Layer         | Engineering                                    |
+| ------------- | ---------------------------------------------- |
+| Frontend      | React + Vite + Tailwind                        |
+| State         | Zustand                                        |
+| Backend       | Django + DRF                                   |
+| Database      | PostgreSQL                                     |
+| Vector Search | pgvector                                       |
+| AI            | Gemini                                         |
+| Embeddings    | SentenceTransformers                           |
+| Retrieval     | RAG                                            |
+| Ingestion     | Gmail IMAP                                     |
+| Deployment    | Vercel + Render + Supabase                     |
+| Security      | Authorization, CSRF, validation, rate limiting |
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+---
+
+# 🎨 Design × Engineering
+
+One of the areas I care most about is the intersection between **product design and software engineering**.
+
+I don't see this as:
+
+```text
+Design → Engineering
+```
+
+I see it as:
+
+```text
+       Design
+       ↕   ↕
+   UX ←→ Architecture
+       ↕   ↕
+    Components
+       ↕
+ Implementation
+       ↕
+    Feedback
+```
+
+I think about:
+
+* Visual hierarchy
+* Typography
+* Spacing
+* Color systems
+* Component consistency
+* Interaction patterns
+* Responsive layouts
+* Information density
+* Accessibility
+
+The objective is simple:
+
+> **Make software technically strong and visually intentional.**
+
+---
+
+# 🤖 AI / GenAI
+
+I am interested in **AI as a product capability**, not simply API integration.
+
+### My current areas
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/RAG-0f172a?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Semantic_Search-312e81?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Embeddings-4338ca?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Vector_DB-4f46e5?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/LLMs-0891b2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI_Agents-0e7490?style=for-the-badge"/>
+
 </p>
 
----
-
-# 💼 Experience
-
-## AI/ML Engineering Intern — Hexart
-
-**Dec 2024 – Mar 2025**
-
-Worked across machine learning, computer vision, backend APIs, preprocessing, and model inference.
-
-### Contributions
-
-* Built plant disease detection functionality
-* Developed Flask REST APIs
-* Optimized preprocessing and inference
-* Improved prediction efficiency by approximately **20–30%**
-* Reduced latency by approximately **40%**
-* Worked across ML and backend application layers
-
----
-
-# 🤖 AI / GenAI Engineering
-
-I'm interested in building **AI systems that solve actual product problems**, not just wrapping an API around an LLM.
-
-### RAG
+### RAG Architecture
 
 ```text
 Documents
@@ -402,7 +307,7 @@ Chunking
     ↓
 Embeddings
     ↓
-Vector Database
+Vector Store
     ↓
 Similarity Search
     ↓
@@ -413,61 +318,20 @@ LLM
 Grounded Response
 ```
 
-### Areas I Explore
+I explore:
 
-<p>
-<img src="https://img.shields.io/badge/RAG-111827?style=flat-square"/>
-<img src="https://img.shields.io/badge/Semantic_Search-4F46E5?style=flat-square"/>
-<img src="https://img.shields.io/badge/Vector_DB-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/Embeddings-9333EA?style=flat-square"/>
-<img src="https://img.shields.io/badge/LLM_Integration-111827?style=flat-square"/>
-<img src="https://img.shields.io/badge/Prompt_Engineering-2563EB?style=flat-square"/>
-<img src="https://img.shields.io/badge/Document_Intelligence-0891B2?style=flat-square"/>
-</p>
-
----
-
-# 🎨 Design × Engineering
-
-I care about the space where **design decisions become engineering decisions**.
-
-```text
-Design
-  ↕
-Architecture
-  ↕
-Components
-  ↕
-Implementation
-  ↕
-Feedback
-```
-
-I think about:
-
-* Visual hierarchy
-* Typography
-* Spacing systems
-* Color systems
-* Component consistency
-* Responsive behavior
-* Accessibility
-* Interaction feedback
-* Information density
-
-My goal is to build software that is:
-
-**Technically sound + visually intentional + easy to use**
+**RAG · Semantic Search · Embeddings · Vector Databases · Prompt Engineering · Structured LLM Output · Document Intelligence · AI Agents · AI Product UX**
 
 ---
 
 # 🔐 Security Mindset
 
-Security is part of development, not a final checklist.
+I don't treat security as something that happens after development.
 
-I pay attention to:
+While building applications, I actively consider:
 
-<p>
+<p align="center">
+
 <img src="https://img.shields.io/badge/Authentication-111827?style=flat-square"/>
 <img src="https://img.shields.io/badge/Authorization-111827?style=flat-square"/>
 <img src="https://img.shields.io/badge/IDOR-DC2626?style=flat-square"/>
@@ -475,114 +339,155 @@ I pay attention to:
 <img src="https://img.shields.io/badge/Rate_Limiting-D97706?style=flat-square"/>
 <img src="https://img.shields.io/badge/Input_Validation-D97706?style=flat-square"/>
 <img src="https://img.shields.io/badge/File_Security-7C3AED?style=flat-square"/>
-<img src="https://img.shields.io/badge/API_Security-2563EB?style=flat-square"/>
+
 </p>
 
 > **A feature isn't production-ready just because the happy path works.**
 
 ---
 
-# 🛠️ Tech Stack
+# 🌿 Machine Learning
 
-## Languages
+## Potato Leaf Disease Classification
+
+Computer-vision system for identifying potato leaf diseases.
+
+```text
+Image
+ ↓
+Preprocessing
+ ↓
+CNN
+ ↓
+Classification
+ ↓
+Prediction
+ ↓
+Flask API
+ ↓
+Web Interface
+```
+
+### Results
+
+**~92% accuracy**
+
+**~40% lower latency**
+
+**~20–30% improved prediction efficiency**
+
+### Stack
 
 <p>
+<img src="https://skillicons.dev/icons?i=python,tensorflow,opencv" />
+</p>
+
+**TensorFlow · Keras · OpenCV · Flask**
+
+---
+
+# 💼 Experience
+
+### AI/ML Engineering Intern — Hexart
+
+**Dec 2024 – Mar 2025**
+
+Worked across:
+
+**Machine Learning · Computer Vision · Flask APIs · Preprocessing · Model Inference**
+
+### Contributions
+
+* Developed plant disease detection functionality
+* Built Flask REST APIs
+* Optimized preprocessing and inference
+* Improved prediction efficiency
+* Reduced model inference latency
+* Integrated ML functionality into application workflows
+
+---
+
+# 🛠️ Technology Landscape
+
+### Languages
+
+<p align="center">
 <img src="https://skillicons.dev/icons?i=python,js,ts,c" />
 </p>
 
-## Frontend
+### Frontend
 
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=react,vite,tailwind" />
 </p>
 
-**React · Vite · Tailwind CSS · Zustand · Responsive UI**
+### Backend
 
-## Backend
-
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=django,fastapi,flask" />
 </p>
 
-**Django · Django REST Framework · FastAPI · Flask · REST APIs**
+### Databases
 
-## Databases
-
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb" />
 </p>
 
-**PostgreSQL · pgvector · MySQL · MongoDB**
+### Tools & Deployment
 
-## AI / ML
-
-<p>
-<img src="https://skillicons.dev/icons?i=tensorflow,opencv" />
-</p>
-
-**Gemini · OpenAI API · RAG · SentenceTransformers · TensorFlow · Keras · OpenCV · Prompt Engineering**
-
-## Development & Deployment
-
-<p>
+<p align="center">
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel" />
 </p>
 
-**Git · GitHub · VS Code · Postman · Vercel · Render · Supabase**
+### AI / ML
+
+**Gemini · OpenAI API · RAG · SentenceTransformers · TensorFlow · Keras · OpenCV · Prompt Engineering**
 
 ---
 
-# 🧠 Engineering Principles
+# 🏗️ Engineering Principles
 
-### Build for the problem
+### Problem First
 
-Technology should serve the problem, not the other way around.
+Technology is a tool, not the starting point.
 
-### Keep systems understandable
+### Simplicity
 
-Complexity should earn its place.
+Complexity should solve a real problem.
 
-### Separate responsibilities
+### Separation
 
-Frontend, backend, AI, business logic, and data should have clear boundaries.
+Frontend, backend, AI, business logic and data should have clear boundaries.
 
-### Build reusable systems
+### Reusability
 
-Repeated logic should become reusable abstractions.
+Repeated patterns should become reusable systems.
 
-### Validate continuously
+### Validation
 
-Test while building, not only after finishing.
+Build → test → learn → improve.
 
-### Measure outcomes
+### Security
 
-Whenever possible, I look at:
+Assume unexpected inputs and unexpected users.
+
+### Measurement
 
 **Accuracy · Latency · Automation · Processing Time · Manual Effort**
 
-### Think beyond local development
-
-A real application also needs:
-
-**Security · Error Handling · Deployment · Maintainability · UX**
-
 ---
 
-# 📊 GitHub Activity
+# 📊 GitHub
+
+I prefer GitHub's **native contribution graph and activity feed** as the source of truth rather than relying on third-party live statistics cards.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Jayachandrasai11&show_icons=true&hide_border=true&count_private=true&rank_icon=github" height="165"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayachandrasai11&layout=compact&hide_border=true" height="165"/>
+<img src="https://komarev.com/ghpvc/?username=Jayachandrasai11&label=Profile%20Views&color=312e81&style=flat-square"/>
 
 </div>
 
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=Jayachandrasai11&hide_border=true" />
-
-</div>
+> 💡 **See my GitHub contribution graph and pinned repositories above/below this README for my latest activity.**
 
 ---
 
@@ -592,7 +497,7 @@ A real application also needs:
 
 **G. Pulla Reddy Engineering College (JNTUA)**
 
-**2021 – 2025 · CGPA: 7.5**
+`2021 – 2025` · **CGPA: 7.5**
 
 ---
 
@@ -604,45 +509,50 @@ A real application also needs:
 
 # 🔭 Currently Exploring
 
-* Advanced GenAI architectures
-* RAG optimization
-* Semantic search
-* AI agents
-* Backend scalability
-* Application security
-* Modern React architecture
-* Product-focused frontend engineering
-* Developer tooling
-* AI-assisted software engineering
+```text
+GenAI Architecture
+      +
+RAG Optimization
+      +
+Semantic Search
+      +
+AI Agents
+      +
+Backend Scalability
+      +
+Application Security
+      +
+Modern React
+      +
+AI-assisted Software Engineering
+```
 
 ---
 
-# 🤝 What I'm Looking For
-
-I'm interested in opportunities across:
+# 🤝 Open To
 
 **Software Engineering · Python Full-Stack · Backend Engineering · React · AI/GenAI · Intelligent Applications**
 
-I enjoy environments where I can:
+I'm especially interested in products where:
 
-**Learn → Build → Experiment → Solve → Improve**
+> **Good engineering + thoughtful design + intelligent systems = real user value**
 
 ---
 
 <div align="center">
 
-## 🌐 Let's Connect
+## 🌐 Connect
 
 <a href="https://portfolio-pink-two-40.vercel.app/">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/sai-fullstackdeveloper/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://github.com/Jayachandrasai11">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
@@ -650,5 +560,11 @@ I enjoy environments where I can:
 ### From raw data to intelligent decisions.
 
 **Build · Learn · Validate · Improve**
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:312e81,100:0f172a&height=100&section=footer" width="100%"/>
 
 </div>
