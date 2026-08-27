@@ -1,145 +1,77 @@
 # 👋 Hi, I'm Jayachandrasai
 
-### Software Engineer · Full-Stack Developer · AI / GenAI Builder
+### Software Engineer · Full-Stack Developer · AI/GenAI Builder
 
-I build **AI-powered products, full-stack applications, intelligent workflows, and developer tools** using Python, React, modern APIs, databases, LLMs, and agent-oriented development.
+I build **AI-powered products and full-stack systems** that connect thoughtful product design with solid engineering.
 
-I enjoy working at the intersection of:
+My work spans **React, Python, Django, FastAPI, PostgreSQL, AI/LLMs, RAG, semantic search, APIs, security, and cloud deployment**.
 
-**Software Engineering × AI × Product Design × Automation**
+I enjoy taking an idea from:
 
-My goal isn't just to make software work.
-
-I focus on understanding the problem, designing the system, building the experience, validating the implementation, securing it, and continuously improving it.
+**Problem → Research → Design → Architecture → Implementation → Validation → Deployment → Iteration**
 
 ---
 
-## 🧠 How I Think About Building Software
+<p align="center">
 
-I follow a problem-first engineering approach:
+<a href="https://portfolio-pink-two-40.vercel.app/">
+<img src="https://img.shields.io/badge/🌐%20Portfolio-Visit-111827?style=for-the-badge" />
+</a>
+
+<a href="https://www.linkedin.com/in/sai-fullstackdeveloper/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+</p>
+
+---
+
+# 🧭 How I Build
+
+I don't start a project by immediately writing code.
+
+I start by understanding **what problem the product is actually solving**.
+
+### 01 — Understand
 
 ```text
 Problem
    ↓
-Research
+Users
    ↓
 Requirements
    ↓
-User Flow
+Constraints
    ↓
-Product / UX Design
-   ↓
-System Architecture
-   ↓
-Data Model
-   ↓
-API Design
-   ↓
-Implementation
-   ↓
-AI / Automation
-   ↓
-Testing
-   ↓
-Security
-   ↓
-Deployment
-   ↓
-Observability
-   ↓
-Iteration
+Success Metrics
 ```
 
-Before writing code, I try to answer:
-
-* What problem are we actually solving?
-* Who is using the system?
-* What should the user experience look like?
-* What data enters the system?
-* Where should business logic live?
-* Which parts should be deterministic?
-* Where does AI actually add value?
-* What can fail?
-* What needs to be secured?
-* How will the system scale?
-* How will we know whether the solution is successful?
+I identify the actual user problem, define the requirements, and determine what the system needs to achieve.
 
 ---
 
-# 🚀 My Project Development Approach
+### 02 — Design
 
-I don't start projects with:
+Before implementation, I think about:
 
-> "Which framework should I use?"
-
-I start with:
-
-> **"What are we trying to solve?"**
-
-### 01 — Understand
-
-I break the problem into:
-
-* Users
-* Pain points
-* Inputs
-* Outputs
-* Constraints
-* Business rules
-* Success metrics
-
-### 02 — Research
-
-I investigate:
-
-* Existing solutions
-* Similar products
-* Technical approaches
-* APIs
-* Libraries
-* UX patterns
-* Data requirements
-* Security considerations
-
-### 03 — Plan
-
-I convert the problem into:
-
-```text
-Requirements
-     ↓
-Features
-     ↓
-User Flows
-     ↓
-Components
-     ↓
-APIs
-     ↓
-Database
-     ↓
-AI / Automation
-```
-
-### 04 — Design
-
-Before implementation, I define:
-
+* Information architecture
+* User flows
 * Layout
 * Visual hierarchy
 * Color
 * Typography
 * Spacing
-* Components
-* States
-* Interactions
 * Responsive behavior
+* Component structure
+* Interaction patterns
 
-The objective is to establish a **design system before creating individual screens**.
+The goal is to make the product **usable before making it complex**.
 
-### 05 — Architect
+---
 
-Then I define the technical structure:
+### 03 — Architect
+
+I break the product into clear technical boundaries:
 
 ```text
 Frontend
@@ -148,45 +80,370 @@ API Layer
     ↓
 Business Logic
     ↓
-Database
+AI / Processing Layer
     ↓
-AI / External Services
+Database / Vector Store
+    ↓
+External Services
 ```
 
-I try to keep responsibilities separated so individual parts can evolve without breaking the entire system.
+I think about:
 
-### 06 — Build
+* Data flow
+* API contracts
+* Database structure
+* Authentication
+* Authorization
+* Error handling
+* Scalability
+* Security
+* Deployment
 
-Implementation happens incrementally.
+---
 
-Instead of creating the entire application at once:
+### 04 — Implement
+
+I build incrementally instead of trying to build everything at once.
 
 ```text
-Foundation
-   ↓
-Core Feature
-   ↓
-Integration
-   ↓
-Validation
-   ↓
-Next Feature
+Core functionality
+      ↓
+Reusable components
+      ↓
+API integration
+      ↓
+Database integration
+      ↓
+AI integration
+      ↓
+Edge cases
+      ↓
+Polishing
 ```
 
-### 07 — Validate
+---
 
-I continuously check:
+### 05 — Validate
 
-* Does the feature work?
-* Does the UI match the intended design?
-* Does the API return the expected data?
-* What happens with invalid input?
-* What happens when an external service fails?
-* Are loading/error/empty states handled?
+I continuously validate the system through:
 
-### 08 — Secure
+* Functional testing
+* API testing
+* UI testing
+* Edge-case testing
+* Data validation
+* Error handling
+* Security checks
+* Performance checks
 
-Security is considered during development rather than at the end.
+When something breaks, I try to understand the **root cause instead of patching only the symptom**.
+
+---
+
+### 06 — Deploy & Iterate
+
+A project isn't finished when it works locally.
+
+I consider:
+
+```text
+Build
+ ↓
+Test
+ ↓
+Secure
+ ↓
+Deploy
+ ↓
+Monitor
+ ↓
+Improve
+```
+
+This mindset has helped me work across frontend, backend, AI, databases, deployment, and security rather than treating them as isolated technologies.
+
+---
+
+# 🚀 Recent & Featured Projects
+
+## 🧠 Resume Intelligence System
+
+### AI-powered recruitment & candidate intelligence platform
+
+A production-oriented recruitment platform designed to reduce the manual effort involved in processing resumes, searching candidates, and understanding candidate profiles.
+
+### The problem
+
+Recruiters often deal with:
+
+```text
+Emails
+  ↓
+Resume Files
+  ↓
+Manual Reading
+  ↓
+Information Extraction
+  ↓
+Candidate Filtering
+  ↓
+Matching
+  ↓
+Decision Making
+```
+
+I wanted to turn this into an intelligent workflow.
+
+### The system
+
+```text
+Gmail
+  ↓
+Resume Ingestion
+  ↓
+PDF / DOCX Parsing
+  ↓
+LLM Structured Extraction
+  ↓
+Candidate Data
+  ↓
+Embeddings
+  ↓
+PostgreSQL + pgvector
+  ↓
+Semantic Search / RAG
+  ↓
+Recruiter Dashboard
+```
+
+### Key Features
+
+* Gmail IMAP resume ingestion
+* PDF/DOCX document processing
+* Structured candidate information extraction
+* Gemini-powered AI processing
+* SentenceTransformers embeddings
+* PostgreSQL + pgvector vector search
+* Semantic candidate search
+* RAG-based candidate discovery
+* Resume-aware AI chat
+* Candidate management
+* Job description processing
+* Recruitment analytics
+* Interactive dashboards
+* Zustand state management
+* Responsive React interface
+
+### Engineering Focus
+
+I didn't want to build another simple "upload resume → call AI API" application.
+
+The focus was on building a complete system:
+
+**Ingestion → Processing → Intelligence → Search → Interaction → Analytics**
+
+### Security & Reliability
+
+During development I also investigated and addressed areas such as:
+
+* IDOR risks
+* Authorization boundaries
+* MIME-type validation
+* File upload security
+* CSRF protection
+* Rate limiting
+* API validation
+* Error handling
+
+### Stack
+
+`React` `Vite` `Tailwind CSS` `Zustand` `Python` `Django` `DRF` `PostgreSQL` `pgvector` `Gemini API` `SentenceTransformers` `RAG`
+
+---
+
+# ⚡ Veyra
+
+### Modern full-stack product focused on intelligent user experiences
+
+Veyra represents my recent work around combining **product design, modern frontend engineering, backend systems, and intelligent functionality** into one cohesive application.
+
+### My approach
+
+Instead of treating the frontend as a collection of screens, I approached the product as a system:
+
+```text
+Product Concept
+      ↓
+User Experience
+      ↓
+Visual Language
+      ↓
+Component System
+      ↓
+Frontend Architecture
+      ↓
+Backend / APIs
+      ↓
+Data
+      ↓
+Deployment
+```
+
+### Focus Areas
+
+* Modern React architecture
+* Reusable UI components
+* Responsive layouts
+* Clean interaction patterns
+* API-driven functionality
+* State management
+* Backend integration
+* Production deployment
+* Iterative UX refinement
+
+### Stack
+
+`React` `Vite` `JavaScript/TypeScript` `Tailwind CSS` `Python` `APIs` `Git` `Vercel`
+
+---
+
+# 🌿 Potato Leaf Disease Classification
+
+### Computer vision system for plant disease detection
+
+Built a deep-learning based system for identifying diseases from potato leaf images.
+
+### Pipeline
+
+```text
+Image
+ ↓
+Preprocessing
+ ↓
+CNN Model
+ ↓
+Classification
+ ↓
+Prediction
+ ↓
+API
+ ↓
+Web Interface
+```
+
+### Results
+
+* Approximately **92% classification accuracy**
+* Optimized preprocessing/inference pipeline
+* Reduced latency by approximately **40%**
+* Built Flask API for model integration
+* Created web-based prediction workflow
+
+### Stack
+
+`Python` `TensorFlow` `Keras` `OpenCV` `Flask`
+
+---
+
+# 💼 AI/ML Engineering Internship
+
+## Hexart
+
+**Dec 2024 – Mar 2025**
+
+Worked on AI/ML applications involving computer vision, model inference, preprocessing, and backend integration.
+
+### Contributions
+
+* Developed plant disease detection functionality
+* Built Flask REST APIs for ML model integration
+* Optimized preprocessing and inference
+* Improved prediction efficiency by approximately **20–30%**
+* Worked across ML and backend layers
+* Integrated machine-learning functionality into usable application workflows
+
+---
+
+# 🧠 AI / GenAI Engineering
+
+I'm particularly interested in building **useful AI systems rather than simply integrating an LLM API**.
+
+Areas I explore:
+
+### Retrieval-Augmented Generation
+
+```text
+Documents
+   ↓
+Chunking
+   ↓
+Embeddings
+   ↓
+Vector Database
+   ↓
+Similarity Search
+   ↓
+Relevant Context
+   ↓
+LLM
+   ↓
+Grounded Response
+```
+
+### Areas of Interest
+
+* RAG
+* Semantic Search
+* Vector Databases
+* Embeddings
+* LLM integration
+* Prompt Engineering
+* Structured output
+* Document intelligence
+* AI agents
+* AI-assisted decision systems
+* Natural-language interfaces
+* AI product UX
+
+---
+
+# 🎨 Design + Engineering
+
+One thing I care about is the relationship between **design and engineering**.
+
+I don't see them as separate stages.
+
+```text
+Design
+  ↕
+Architecture
+  ↕
+Components
+  ↕
+Implementation
+  ↕
+User Feedback
+```
+
+For interfaces, I think about:
+
+* Visual hierarchy
+* Typography
+* Spacing systems
+* Color systems
+* Component consistency
+* Responsive behavior
+* Accessibility
+* Interaction feedback
+* Information density
+
+My goal is to build products that are not only technically functional but also **clear, intuitive, and visually intentional**.
+
+---
+
+# 🔐 Security Mindset
+
+While building applications, I actively look for problems beyond normal functionality.
 
 Areas I pay attention to include:
 
@@ -194,577 +451,166 @@ Areas I pay attention to include:
 * Authorization
 * IDOR
 * CSRF
-* Input validation
-* File validation
-* MIME spoofing
 * Rate limiting
+* Input validation
+* File upload security
+* MIME spoofing
 * API exposure
 * Environment variables
-* Database access
+* Database access boundaries
+* Error leakage
 
-### 09 — Deploy
+My approach is:
 
-I then move the system toward production using:
+> **Don't assume an application is secure because the happy path works.**
 
-**Vercel → Frontend**
+---
 
-**Render → Backend**
+# 🧪 Debugging & Problem Solving
 
-**Supabase → Database / Storage**
-
-### 10 — Iterate
-
-After deployment:
+When something doesn't work, my debugging process is generally:
 
 ```text
 Observe
   ↓
-Find Problems
+Reproduce
   ↓
-Prioritize
+Isolate
+  ↓
+Find Root Cause
   ↓
 Fix
   ↓
 Validate
   ↓
-Improve
+Prevent Regression
 ```
+
+I use logs, API responses, browser tools, database inspection, Git history, testing, and incremental changes to identify problems.
 
 ---
 
-# 🤖 My AI-Assisted / Vibe Coding Workflow
+# 🏗️ Engineering Principles
 
-One of the workflows I increasingly use is **AI-assisted development**, but I don't treat AI as a replacement for engineering.
+### Keep systems understandable
 
-I treat AI as an **engineering multiplier**.
+Complexity should be introduced only when it solves a real problem.
 
-The flow looks like:
+### Build reusable components
 
-```text
-Idea
- ↓
-Problem Definition
- ↓
-Research
- ↓
-Requirements
- ↓
-Context Preparation
- ↓
-Architecture
- ↓
-Prompt
- ↓
-AI / Agent
- ↓
-Implementation
- ↓
-Review
- ↓
-Test
- ↓
-Fix
- ↓
-Commit
-```
+Repeated UI and logic should become reusable abstractions.
 
-### The important part is the context.
+### Separate responsibilities
 
-Instead of asking:
+Frontend, backend, business logic, data, and AI processing should have clear boundaries.
 
-> "Build me a dashboard."
+### Validate continuously
 
-I provide the AI with:
+Don't wait until the end of a project to discover that the architecture doesn't work.
 
-```text
-1. Product context
-2. User requirements
-3. Existing architecture
-4. Design system
-5. File structure
-6. Component rules
-7. API contracts
-8. Database schema
-9. Technical constraints
-10. Expected behavior
-11. Edge cases
-12. Acceptance criteria
-```
+### Measure improvements
 
-Then the AI has enough context to produce implementation that fits the existing system rather than generating isolated code.
+When possible, I prefer concrete metrics such as:
+
+**accuracy · latency · automation · processing time · manual effort**
+
+### Build for the real world
+
+A project should consider:
+
+**security · errors · deployment · maintainability · user experience**
 
 ---
 
-# 🧩 My Prompt Engineering Flow
+# 🛠️ Technical Stack
 
-I structure complex development prompts around:
-
-```text
-ROLE
- ↓
-CONTEXT
- ↓
-OBJECTIVE
- ↓
-EXISTING SYSTEM
- ↓
-CONSTRAINTS
- ↓
-DESIGN RULES
- ↓
-TECHNICAL REQUIREMENTS
- ↓
-TASK
- ↓
-EDGE CASES
- ↓
-ACCEPTANCE CRITERIA
- ↓
-EXPECTED OUTPUT
-```
-
-For example:
-
-```text
-ROLE
-You are a senior React + TypeScript engineer.
-
-CONTEXT
-This feature belongs to an existing production application.
-
-OBJECTIVE
-Build the candidate analytics experience.
-
-EXISTING SYSTEM
-React + Vite + Tailwind + Zustand
-Backend: Django REST API
-Database: PostgreSQL
-
-DESIGN RULES
-Follow the existing design system.
-Do not introduce new colors, typography, spacing,
-or component patterns.
-
-CONSTRAINTS
-Do not modify unrelated components.
-Reuse existing components where possible.
-
-TASK
-Implement the analytics page and connect it to the
-existing API.
-
-EDGE CASES
-Handle loading, empty, error, and partial-data states.
-
-ACCEPTANCE CRITERIA
-- Responsive
-- Accessible
-- API integrated
-- Existing components reused
-- No unrelated files modified
-```
-
-This turns **vibe coding from "AI writes code" into structured AI-assisted engineering**.
-
----
-
-# 🧠 Agent-Oriented Development
-
-I'm also interested in how AI agents can interact with development environments and tools.
-
-I think about an agent as:
-
-```text
-Goal
- ↓
-Understand Context
- ↓
-Plan
- ↓
-Choose Tool
- ↓
-Execute
- ↓
-Observe Result
- ↓
-Evaluate
- ↓
-Correct
- ↓
-Repeat
-```
-
-A useful agent shouldn't simply generate text.
-
-It should be able to reason about:
-
-* Files
-* Code
-* APIs
-* Documentation
-* Design
-* Tests
-* Git
-* Errors
-* External tools
-* Project context
-
-The interesting engineering problem is therefore:
-
-> **How do we give an AI system the right context, tools, constraints, and feedback loop to perform useful work reliably?**
-
----
-
-# 🎨 Design → Code Workflow
-
-For UI-heavy projects, I prefer treating design as part of engineering.
-
-```text
-Design File
-     ↓
-Design Tokens
-     ↓
-Layout
-     ↓
-Typography
-     ↓
-Components
-     ↓
-States
-     ↓
-Interactions
-     ↓
-Implementation
-     ↓
-Visual Validation
-```
-
-Before generating a page, I identify:
-
-### Visual System
-
-* Colors
-* Typography
-* Spacing
-* Radius
-* Shadows
-* Borders
-* Icons
-
-### Layout System
-
-* Container
-* Grid
-* Columns
-* Alignment
-* Responsive breakpoints
-* Component hierarchy
-
-### Interaction System
-
-* Hover
-* Focus
-* Loading
-* Empty
-* Error
-* Success
-* Disabled
-
-This allows AI-assisted coding to preserve the **design language** rather than producing generic UI.
-
----
-
-# 🔬 AI Product Development Philosophy
-
-I don't add AI simply because a project can use an LLM.
-
-I ask:
-
-```text
-Can AI solve this problem better?
-        ↓
-What context does AI need?
-        ↓
-What should remain deterministic?
-        ↓
-What happens when AI is wrong?
-        ↓
-How do we validate the output?
-```
-
-For AI systems, I think about:
-
-* Retrieval
-* Context
-* Prompt design
-* Structured outputs
-* Embeddings
-* Vector search
-* RAG
-* Tool usage
-* Evaluation
-* Fallbacks
-* Cost
-* Latency
-* Security
-
----
-
-# 🧠 Featured Project — AI Resume Intelligence System
-
-An AI-powered recruitment platform designed to transform manual resume screening into an intelligent candidate discovery workflow.
-
-### Problem
-
-Traditional resume screening requires recruiters to manually:
-
-```text
-Collect Resumes
-      ↓
-Read Documents
-      ↓
-Extract Information
-      ↓
-Compare Candidates
-      ↓
-Search Skills
-      ↓
-Shortlist Candidates
-```
-
-I redesigned this workflow around automation and semantic intelligence.
-
-### System
-
-```text
-Gmail / Resume Upload
-        ↓
-Document Parser
-        ↓
-LLM Extraction
-        ↓
-Structured Candidate Data
-        ↓
-Embeddings
-        ↓
-PostgreSQL + pgvector
-        ↓
-Semantic Search / RAG
-        ↓
-Candidate Insights
-        ↓
-Recruiter Dashboard
-```
-
-### Engineering Areas
-
-* Gmail IMAP ingestion
-* PDF/DOCX processing
-* Structured LLM extraction
-* Gemini API
-* SentenceTransformers
-* 384-dimensional embeddings
-* PostgreSQL
-* pgvector
-* Semantic search
-* RAG
-* Resume-aware AI chat
-* React dashboard
-* Zustand state management
-* Django REST APIs
-* Authentication and authorization
-* File validation
-* Rate limiting
-* Security validation
-* Production deployment
-
-### Product Thinking
-
-The project wasn't treated as only an AI model.
-
-I worked across:
-
-**Product → UX → Frontend → Backend → Data → AI → Security → Deployment**
-
----
-
-# 🛠️ Recent Engineering Work
-
-### 🔹 AI / GenAI Applications
-
-Exploring:
-
-* RAG architectures
-* Semantic search
-* LLM APIs
-* Prompt engineering
-* AI agents
-* Tool-based AI workflows
-* Structured outputs
-* AI-assisted development
-
-### 🔹 Developer / Agent Tooling
-
-Exploring workflows where AI can:
-
-```text
-Understand Project
-      ↓
-Read Context
-      ↓
-Plan Work
-      ↓
-Use Tools
-      ↓
-Modify Files
-      ↓
-Run Tests
-      ↓
-Inspect Errors
-      ↓
-Fix Issues
-      ↓
-Validate Result
-```
-
-### 🔹 Product Engineering
-
-Building applications with attention to:
-
-* UX
-* Component architecture
-* API design
-* Database modeling
-* State management
-* Security
-* Deployment
-* Maintainability
-
-### 🔹 Application Security
-
-I have also worked through practical application-security issues such as:
-
-* IDOR
-* MIME spoofing
-* CSRF
-* Access-control weaknesses
-* Rate limiting
-* Host validation
-* File upload security
-
----
-
-# 🧪 How I Debug
-
-My debugging process is usually:
-
-```text
-Observe
- ↓
-Reproduce
- ↓
-Isolate
- ↓
-Identify Root Cause
- ↓
-Fix
- ↓
-Test
- ↓
-Regression Check
-```
-
-I try to avoid blindly patching symptoms.
-
-The objective is to understand **why the failure happened**.
-
----
-
-# 🏗️ Architecture Principles
-
-I generally prefer:
-
-* Clear separation of concerns
-* Reusable components
-* Modular backend architecture
-* Explicit API contracts
-* Strong data modeling
-* Validation at system boundaries
-* Secure defaults
-* Small incremental changes
-* Reusable design systems
-* Observable failures
-* Documentation for important decisions
-
----
-
-# ⚙️ Technology
-
-### Languages
+## Languages
 
 `Python` `JavaScript` `TypeScript` `C`
 
-### Frontend
+## Frontend
 
-`React` `Vite` `Tailwind CSS` `Zustand`
+`React.js` `Vite` `Tailwind CSS` `Zustand` `Responsive UI`
 
-### Backend
+## Backend
 
 `Django` `Django REST Framework` `FastAPI` `Flask` `REST APIs`
 
-### Databases
+## Databases
 
 `PostgreSQL` `pgvector` `MySQL` `MongoDB`
 
-### AI / ML
+## AI / ML
 
-`RAG` `LLM Integration` `Gemini API` `OpenAI API` `SentenceTransformers` `TensorFlow` `Keras` `OpenCV` `Prompt Engineering`
+`RAG` `Prompt Engineering` `Gemini API` `OpenAI API` `SentenceTransformers` `TensorFlow` `Keras` `OpenCV`
 
-### Engineering
+## Tools & Platforms
 
-`Git` `GitHub` `Postman` `VS Code` `API Design` `System Architecture` `Application Security`
-
-### Deployment
-
-`Vercel` `Render` `Supabase`
+`Git` `GitHub` `Postman` `VS Code` `Vercel` `Render` `Supabase`
 
 ---
 
-# 🌿 Machine Learning Project
+# 🔄 My Full Development Workflow
 
-## Potato Leaf Disease Classification
-
-Computer-vision application for detecting potato leaf diseases.
-
-### Highlights
-
-* CNN-based classification
-* Image preprocessing
-* TensorFlow / Keras
-* OpenCV
-* Flask API
-* Approximately **92% classification accuracy**
-* Optimized inference pipeline
-* Approximately **40% latency reduction**
+```text
+                    ┌──────────────────┐
+                    │     Problem      │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │     Research     │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │      Design     │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │    Architecture  │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │   Implementation │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │   AI / APIs / DB │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │ Test & Validate  │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │ Security Review  │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │     Deploy       │
+                    └────────┬─────────┘
+                             ↓
+                    ┌──────────────────┐
+                    │ Iterate & Improve│
+                    └──────────────────┘
+```
 
 ---
 
-# 💼 Experience
+# 📈 GitHub Activity
 
-## AI/ML Engineering Intern — Hexart
+<p align="center">
 
-**Dec 2024 – Mar 2025**
+<img src="https://github-readme-stats.vercel.app/api?username=Jayachandrasai11&show_icons=true&hide_border=true&count_private=true" height="165"/>
 
-Worked on machine-learning applications involving computer vision, model inference, preprocessing, and backend integration.
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayachandrasai11&layout=compact&hide_border=true" height="165"/>
 
-Key contributions included:
+</p>
 
-* Developed plant disease detection systems
-* Built Flask REST APIs
-* Integrated ML inference with web applications
-* Optimized preprocessing and inference
-* Improved prediction efficiency
-* Worked across ML and backend layers
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Jayachandrasai11&hide_border=true"/>
+
+</p>
 
 ---
 
@@ -773,6 +619,7 @@ Key contributions included:
 ### B.Tech — Computer Science & Data Science
 
 **G. Pulla Reddy Engineering College (JNTUA)**
+
 2021 – 2025 · CGPA: **7.5**
 
 ---
@@ -783,65 +630,47 @@ Key contributions included:
 
 ---
 
-# 📊 GitHub Activity
+# 🎯 Currently Exploring
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Jayachandrasai11&show_icons=true&hide_border=true&count_private=true" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jayachandrasai11&layout=compact&hide_border=true" height="165"/>
-</p>
+* Advanced GenAI application architecture
+* RAG optimization
+* Semantic search
+* AI agents
+* Backend scalability
+* Application security
+* Modern React architecture
+* Product-focused frontend engineering
+* Developer tooling
+* AI-assisted software development
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Jayachandrasai11&hide_border=true" />
-</p>
+---
+
+# 🤝 What I'm Looking For
+
+I'm interested in opportunities where I can work across:
+
+**Software Engineering · Python Full-Stack · Backend Engineering · React · AI/GenAI · Intelligent Applications**
+
+I enjoy environments where I can **learn, build, experiment, and solve real engineering problems**.
 
 ---
 
 # 🌐 Connect
 
-<p>
-  <a href="https://portfolio-pink-two-40.vercel.app/">Portfolio</a> •
-  <a href="https://www.linkedin.com/in/sai-fullstackdeveloper/">LinkedIn</a> •
-  <a href="https://github.com/Jayachandrasai11/">GitHub</a>
+<p align="center">
+
+<a href="https://portfolio-pink-two-40.vercel.app/">Portfolio</a>
+  •   <a href="https://www.linkedin.com/in/sai-fullstackdeveloper/">LinkedIn</a>
+  •   <a href="https://github.com/Jayachandrasai11/">GitHub</a>
+
 </p>
 
 ---
 
-## 🚀 What I'm Building Toward
+<p align="center">
 
-I'm interested in building systems where:
+### From raw data to intelligent decisions.
 
-**Software Engineering + AI + Product Design + Automation**
+**Build → Learn → Validate → Improve**
 
-come together to solve real problems.
-
-My long-term focus is on becoming an engineer who can move across the entire lifecycle:
-
-```text
-Idea
- ↓
-Problem
- ↓
-Research
- ↓
-Design
- ↓
-Architecture
- ↓
-Code
- ↓
-AI
- ↓
-Agents
- ↓
-Security
- ↓
-Testing
- ↓
-Deployment
- ↓
-Product
-```
-
-### From raw data → intelligent systems → real-world decisions.
-
-⭐ Explore the repositories to see how I build.
+</p>
